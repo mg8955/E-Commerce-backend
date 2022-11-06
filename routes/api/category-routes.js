@@ -37,7 +37,20 @@ router.post('/', async (req, res) => {
 
 // Update route for category on 'id value
 router.put('/:id', (req, res) => {
-  
+  Category.update(req.body, {
+    where: {
+      id: req.params.id,
+    },
+  })
+  .then(cat => {
+    if (!cat[0]) {
+      res.status(404).json({ message: 'No tag with this id!' });
+    }
+    res.json(cat);
+  })
+  .catch(err => {
+    res.status(500).json(err);
+  })
 });
 
 // Delete route for category on 'id' value
