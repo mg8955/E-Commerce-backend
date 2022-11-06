@@ -11,7 +11,7 @@
        [Contact Me](#contact)
  ## Installation
  ---
- https://drive.google.com/file/d/1vEX3WRzEmmvc9oGbM0mOPwTiu-v5gduZ/view
+ [Link to video demonstration of installation.](https://drive.google.com/file/d/1vEX3WRzEmmvc9oGbM0mOPwTiu-v5gduZ/view)
  1. Open /db in integrated terminal.
  2. Run schema.sql in MySql terminal.
  3. Open server.js in integrated terminal.
