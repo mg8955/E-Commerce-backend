@@ -11,10 +11,16 @@
        [Contact Me](#contact)
  ## Installation
  ---
- Use npm install to install dependencies.
+ https://drive.google.com/file/d/1vEX3WRzEmmvc9oGbM0mOPwTiu-v5gduZ/view
+ 1. Open /db in integrated terminal.
+ 2. Run schema.sql in MySql terminal.
+ 3. Open server.js in integrated terminal.
+ 4. Use "npm run seed" to seed the database.
+ 5. Use "node server.js" to start the server.
+ 6. Routing can be verified using Insomnia, or another tool.
  ## Usage
  ---
- 
+ N/A
  ## License
  ---
  ![](https://img.shields.io/badge/license-MIT-brightgreen) [Click here for more information about the MIT license.](https://choosealicense.com/licenses/mit/)
